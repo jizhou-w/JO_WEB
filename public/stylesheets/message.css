@@ -88,7 +88,9 @@
 }
 
 .next-box{
- margin-top: 0px;
+    background-color: white;
+    margin:50px 50px 50px 50px;
+    padding:20px;
 }
 
 /*剧集*/
@@ -98,6 +100,11 @@
 
 .first-count-box{
     padding-top: 20px;
+    display: inline-block;
+}
+
+.count-box{
+    padding-left: 30px;
     display: inline-block;
 }
 
