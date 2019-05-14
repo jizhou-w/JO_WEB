@@ -1,0 +1,36 @@
+
+
+.first-box{
+    background-color: white;
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-top: 300px;
+    transform: translate(-50%,-50%);
+}
+
+.head{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+
+
+.like{
+    color: #FC4F5B;
+    font-size: 18px;
+}
+
+.change{
+    color: black;
+    font-size: 18px;
+}
+
+.line{
+    float: left;
+    margin-left: 50px;
+    width: 1.5px;
+    background: #DDDDDD;
+    height: 450px;
+}

@@ -1,0 +1,57 @@
+/*主体内容*/
+.first-box{
+    background-color: white;
+    margin:80px 50px 50px 50px;
+    padding:20px;
+}
+/*banner*/
+.banner-img{
+    display: inline-block;
+    width:70%;
+    vertical-align: top;
+}
+/*排行*/
+.listbox{
+    float: right;
+    display: inline-block;
+}
+.title-txt{
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 150px;
+    vertical-align: middle;
+}
+.more{
+    display: inline-block;
+    font-size: 14px;
+    color:#e54209 ;
+}
+.opera-list{
+    margin-top: 10px;
+}
+.opera-span{
+    margin-left: 20px;
+}
+.opera-action{
+    color:#e54209 ;
+}
+
+/*日剧列表*/
+.second-box{
+    margin-top: 0;
+}
+.update-title{
+    font-size: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: bold;
+}
+.row{
+    margin-top:20px
+}
+.opera-title{
+    margin-top: 10px;
+    text-align: center;
+}
+

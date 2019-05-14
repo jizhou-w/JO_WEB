@@ -1,0 +1,89 @@
+body{
+    background-color: #EEEEEE;
+}
+/*导航栏*/
+
+.navbar{
+    background-color: white;
+}
+/*logo*/
+.navbar-brand{
+    padding-top:10px;
+    padding-left:20px;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.logo{
+    width:60%;
+}
+/*导航栏按钮*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color:#e54209;
+    background-color: white;
+}
+
+.title{
+    font-size: 16px;
+    margin-left: 20px;
+}
+/*搜索*/
+.form-group{
+    float: left;
+    margin-left: 150px;
+}
+.form-control{
+    height: 35px;
+    float: left;
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style: solid;
+    border-color: #e54209;
+    border-width: 3px;
+}
+
+.search-button{
+    height: 35px;
+    width: 70px;
+    background-color: #e54209;
+    color: white;
+    font-size: 16px;
+    border-style: solid;
+    border-color: #e54209;
+    border-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.search-button:hover{
+    background-color:#e54209 ;
+}
+.search-button:visited{
+    background-color:#e54209 ;
+}
+/*登陆注册*/
+
+.tologin{
+    width: 70px;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e54209;
+    background-color: #e54209;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    float: right;
+}
+
+.tosign{
+    margin-left:10px;
+    width: 70px;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    float: right;
+}

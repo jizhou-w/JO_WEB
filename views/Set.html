@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Set</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../public/stylesheets/Set.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" >
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" style="margin-left: 20px" href=""><img src="../public/images/logo.png" height="43.5" width="174"/></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-top: 10px">
+        <ul class="nav navbar-nav ">
+            <li class="active"><a class="title" href="#">首页<span class="sr-only">(current)</span></a></li>
+            <li><a class="title" href="#">分类</a></li>
+            <li><a class="title" href="#">咨询</a></li>
+        </ul>
+        <form class="navbar-form navbar-left">
+            <div class="form-group">
+                <input type="text" class="form-control" style="width: 300px" placeholder="请输入内容…">
+            </div>
+            <button style="background-color: #FC4F5B;color: white;font-size: 16px" type="submit" class="btn btn-default">搜索</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right" style="margin-top: 10px;margin-right: 10px">
+            <li><button class="tologin" href="#">登录</button></li>
+            <li><button style="width: 10px;background-color: white;border: none"></button></li>
+            <li><button class="tosetup" href="#">注册</button></li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+
+<div class="box1">
+    <div class="logintext">
+        <p>注册登录</p>
+    </div>
+    <hr class="shortlineL">
+    <hr class="shortlineR">
+    <div class="informtext">
+        <p>登陆后即可获得跟多会员功能</p>
+    </div>
+    <div class="loginimbox">
+        <img class="loginim" src="../public/images/sign_pic.png "/>
+    </div>
+    <!--<div class="linebox">-->
+    <!--<table class="downline" width="1" border="1" frame="rhs">-->
+    <!--<tr>-->
+    <!--<td style="border: none"></td>-->
+    <!--</tr>-->
+    <!--</table>-->
+    <!--</div>-->
+    <div class="downline"></div>
+    <div class="inputbox">
+        <input class="id" placeholder="           账号">
+        <input class="password" placeholder="           密码">
+        <input class="surepassword" placeholder="           确认密码">
+    </div>
+    <div class="buttonbox">
+        <button class="login">立即注册</button>
+    </div>
+</div>
+</nav>
+</body>
+</html>
