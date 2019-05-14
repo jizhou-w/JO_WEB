@@ -1,0 +1,26 @@
+/*主体内容*/
+.first-box{
+    background-color: white;
+    margin:80px 50px 50px 50px;
+    padding:20px;
+}
+
+/*视频*/
+.video-box{
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+}
+
+.film{
+    width: 80%;
+    height: 40%;
+}
+
+.count-box{
+    display: inline-block;
+}
+
+.chose{
+    font-size: 22px;
+}
