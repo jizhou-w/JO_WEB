@@ -1,0 +1,86 @@
+/*主体内容*/
+.first-box{
+    background-color: white;
+    margin:80px 50px 50px 50px;
+    padding:20px;
+}
+
+/*图片*/
+.massage-img{
+    display: inline-block;
+    width:20%;
+    height: 50%;
+    vertical-align: top;
+}
+
+/*信息框*/
+.massage-box{
+    display: inline-block;
+    padding-left: 40px;
+    width: 55%;
+}
+
+/*标题*/
+.title{
+    display: inline-block;
+    font-size: 24px;
+}
+
+/*详细信息*/
+.massage{
+    font-size: 16px;
+}
+
+.list-box{
+    padding-left: 20px;
+}
+
+.time{
+    display: inline-block;
+}
+
+.count{
+    display: inline-block;
+}
+
+/*按钮*/
+.button-box{
+    padding-left: 280px;
+}
+
+.playbutton-box{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.play{
+    height: 30px;
+    width: 80px;
+    color: white;
+    background-color: #e54209;
+    border: solid;
+    border-color: #e54209;
+    border-radius: 14px;
+}
+
+.criticbutton-box{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.critic{
+    height: 30px;
+    width: 80px;
+    background-color:white;
+    border: solid;
+    border-color: #e54209;
+    border-radius: 14px;
+}
+
+
+.next-box{
+    background-color: white;
+    margin:50px 50px 50px 50px;
+    padding:20px;
+}
+
